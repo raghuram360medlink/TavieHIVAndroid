@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [tavieHIVAndroid by packages]">
+  <test name="com.medlink.Android.TestCase(failed)">
+    <classes>
+      <class name="com.medlink.Android.TestCase.HealthParameter">
+        <methods>
+          <include name="session1Completion"/>
+          <include name="cd4Delete"/>
+          <include name="pulseDelete"/>
+          <include name="bmiDelete"/>
+          <include name="minutesCaloriesDelete"/>
+          <include name="session1Reset"/>
+          <include name="viralLoadCreate"/>
+          <include name="bmiCreate"/>
+          <include name="hpDriverInit"/>
+          <include name="pulseCreate"/>
+          <include name="bloodPressureDelete"/>
+          <include name="deleteAdherenceRate"/>
+          <include name="cd4Create"/>
+          <include name="minutesCaloriesCreate"/>
+          <include name="bloodPressureCreate"/>
+          <include name="adherenceRateCreate"/>
+          <include name="editAdherenceRate"/>
+          <include name="sessionGeneralActivities"/>
+          <include name="viralLoadDelete"/>
+        </methods>
+      </class> <!-- com.medlink.Android.TestCase.HealthParameter -->
+    </classes>
+  </test> <!-- com.medlink.Android.TestCase(failed) -->
+</suite> <!-- Failed suite [tavieHIVAndroid by packages] -->

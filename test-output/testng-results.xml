@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54006" started-at="2017-06-29T16:06:06Z" finished-at="2017-06-29T16:07:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54006" started-at="2017-06-29T16:06:06Z" finished-at="2017-06-29T16:07:00Z">
+      <class name="com.medlink.Android.TestCase.Sessions">
+        <test-method status="PASS" signature="hpDriverInit()[pri:0, instance:com.medlink.Android.TestCase.Sessions@39c0f4a]" name="hpDriverInit" is-config="true" duration-ms="14363" started-at="2017-06-29T12:06:06Z" finished-at="2017-06-29T12:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hpDriverInit -->
+        <test-method status="PASS" signature="session1Completion()[pri:0, instance:com.medlink.Android.TestCase.Sessions@39c0f4a]" name="session1Completion" duration-ms="24461" started-at="2017-06-29T12:06:20Z" finished-at="2017-06-29T12:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- session1Completion -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.medlink.Android.TestCase.Sessions@39c0f4a]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-29T12:06:45Z" finished-at="2017-06-29T12:06:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=session1Completion status=SUCCESS method=Sessions.session1Completion()[pri:0, instance:com.medlink.Android.TestCase.Sessions@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="sessionGeneralActivities()[pri:0, instance:com.medlink.Android.TestCase.Sessions@39c0f4a]" name="sessionGeneralActivities" duration-ms="8219" started-at="2017-06-29T12:06:45Z" finished-at="2017-06-29T12:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionGeneralActivities -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.medlink.Android.TestCase.Sessions@39c0f4a]" name="tearDown" is-config="true" duration-ms="3" started-at="2017-06-29T12:06:53Z" finished-at="2017-06-29T12:06:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sessionGeneralActivities status=SUCCESS method=Sessions.sessionGeneralActivities()[pri:0, instance:com.medlink.Android.TestCase.Sessions@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="session1Reset()[pri:0, instance:com.medlink.Android.TestCase.Sessions@39c0f4a]" name="session1Reset" duration-ms="5943" started-at="2017-06-29T12:06:53Z" depends-on-methods="com.medlink.Android.TestCase.Sessions.session1Completion" finished-at="2017-06-29T12:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- session1Reset -->
+        <test-method status="PASS" signature="driverQuit()[pri:0, instance:com.medlink.Android.TestCase.Sessions@39c0f4a]" name="driverQuit" is-config="true" duration-ms="979" started-at="2017-06-29T12:06:59Z" finished-at="2017-06-29T12:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.medlink.Android.TestCase.Sessions@39c0f4a]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-29T12:06:59Z" finished-at="2017-06-29T12:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=session1Reset status=SUCCESS method=Sessions.session1Reset()[pri:0, instance:com.medlink.Android.TestCase.Sessions@39c0f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medlink.Android.TestCase.Sessions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

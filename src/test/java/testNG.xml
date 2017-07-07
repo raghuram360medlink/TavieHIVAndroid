@@ -1,0 +1,44 @@
+<!--  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<xml version="1.0" encoding="UTF-8"?>-->
+
+
+<suite name="Tavie HIV Android" verbose="1" >
+  <test name="Treatment Summary" >
+    <classes>
+      <class name="com.medlink.Android.TestCase.TreatmentSummary"/>
+      </classes>
+ </test>
+ <test name="Health Parameter" >
+     <classes>
+      <class name="com.medlink.Android.TestCase.HealthParameter"/>
+      </classes>
+ </test>
+ <test name="Sessions" >
+     <classes>
+      <class name="com.medlink.Android.TestCase.Sessions"/>
+      </classes>
+ </test>
+ <test name="Self Assessment" >
+     <classes>
+      <class name="com.medlink.Android.TestCase.SelfAssessment"/>
+      </classes>
+ </test>
+ <test name="Symptoms Diary" >
+     <classes>
+      <class name="com.medlink.Android.TestCase.SymptomsDiary"/>
+      </classes>
+ </test>
+   <test name="My Virtual Library" >
+     <classes>
+      <class name="com.medlink.Android.TestCase.MyVirtualLibrary"/>
+      </classes>
+ </test> 
+ <test name="Notification" >
+     <classes>
+      <class name="com.medlink.Android.TestCase.Notification"/>
+      </classes>
+ </test>
+ 
+ 
+ 
+</suite>

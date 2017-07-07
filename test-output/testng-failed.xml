@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tavie HIV Android]">
+  <test name="Treatment Summary(failed)">
+    <classes>
+      <class name="com.medlink.Android.TestCase.TreatmentSummary">
+        <methods>
+          <include name="updateDailyDosage"/>
+          <include name="deleteDailyDosage"/>
+          <include name="driverInitiation"/>
+          <include name="driverQuit"/>
+          <include name="tearDown"/>
+          <include name="dailyDosageCreate"/>
+        </methods>
+      </class> <!-- com.medlink.Android.TestCase.TreatmentSummary -->
+    </classes>
+  </test> <!-- Treatment Summary(failed) -->
+  <test name="Self Assessment(failed)">
+    <classes>
+      <class name="com.medlink.Android.TestCase.SelfAssessment">
+        <methods>
+          <include name="hpDriverInit"/>
+          <include name="SelfAssessmentCompletion"/>
+          <include name="selfAssessmeentReset"/>
+          <include name="driverQuit"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.medlink.Android.TestCase.SelfAssessment -->
+    </classes>
+  </test> <!-- Self Assessment(failed) -->
+  <test name="Notification(failed)">
+    <classes>
+      <class name="com.medlink.Android.TestCase.Notification">
+        <methods>
+          <include name="tearDown"/>
+          <include name="driverInitiation"/>
+          <include name="selfAssessmentUnlock"/>
+          <include name="sessionUnlock"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.medlink.Android.TestCase.Notification -->
+    </classes>
+  </test> <!-- Notification(failed) -->
+</suite> <!-- Failed suite [Tavie HIV Android] -->
